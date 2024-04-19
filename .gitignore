@@ -1,0 +1,30 @@
+################################################################################
+## .gitignore
+##
+## DESCRIPTION:
+## gitignore for the git fork of David Lichteblau's cxml-stp. 
+##
+## Created: 2024-04-19
+##
+## $$ Last modified:  15:22:44 Fri Apr 19 2024 CEST
+################################################################################
+
+### Emacs ###
+# -*- mode: gitignore; -*-
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+################################################################################
+## EOF .gitignore
